@@ -17,6 +17,7 @@ fun main() {
         number % 2 == 0 -> print("2의배수")
         number % 3 == 0 -> print("3의배수")
         number % 4 == 0 -> print("4의배수")
+        else -> print("default")
     }
 
 
